@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #95D5B2;
+    font-family: "Poppins", serif;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #1B4332;
+    margin: 2rem 50px;
+}
+
+header {
+    background-color: #1B4332;
+    height: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin-left: 1.375rem;
+    color: #D8F3DC;
+    font-size: 2.1rem;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+}
+
+header span {
+    color: #74C69D;
+}
+
+header .rightPart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-right: 2.5rem;
+}
+
+li {
+    margin-right: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #D8F3DC;
+    font-size: 0.9rem;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #95D5B2;
+}
+
+.chatBtn {
+    margin-right: 1.375rem;
+    background-color: #D8F3DC;
+    color: #1B4332;
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.25rem;
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    font-style: italic;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.chatBtn:hover {
+    background-color: #95D5B2;
+    color: #1B4332;
+}
+
+#home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+}
+
+#home .leftPart {
+    color: #1B4332;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 0.3px;
+    width: 525px;
+    line-height: 55px;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+#home .leftPart h2 {
+    font-size: 50px;
+}
+
+#home .leftPart p {
+    font-size: 40px;
+}
+
+#home .leftPart span {
+    color: #081C15;
+}
+
+section button {
+    background-color: #1B4332;
+    margin-right: 15px;
+    color: #D8F3DC;
+    height: 40px;
+    width: auto;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 0.25rem;
+    font-weight: 800;
+    font-style: italic;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+section button:hover {
+    background-color: #1B4332;
+    color: #B7E4C7;
+}
+
+#home .rightPart {
+    margin-top: 90px; 
+    margin-right: 170px; 
+}
+
+#home .rightPart img {
+    height: 450px;
+    width: auto;
+}
+
+#About {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#About img {
+
+    height: 450px;
+    width: auto;
+}
+
+#About .leftPart {
+    margin-top: 60px;
+    margin-left: 150px; 
+}
+
+#About .rightPart{
+    color: #1B4332;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 0.2px;
+    width: 650px;
+    line-height: 26px; 
+    margin-right: 150px;
+}
+
+#About .rightPart h2 {
+    font-size: 45px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+#About .rightPart p {
+    font-size: 22px;
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 20px; 
+}
+
+#About .rightPart p::before {
+    content: "•"; 
+    color: #1B4332; 
+    font-size: 25px; 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+} 
+
+#About .rightPart span {
+    color: #081C15;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#Experience {
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Experience .leftPart{
+    color: #1B4332;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: 0.2px;
+    width: 650px;
+    line-height: 26px; 
+    margin-top: 60px;
+    margin-left: 130px;
+}
+
+#Experience .leftPart h2 {
+    font-size: 45px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+#Experience .leftPart p {
+    font-size: 22px;
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 20px; 
+}
+
+#Experience .leftPart p::before {
+    content: "•"; 
+    color: #1B4332; 
+    font-size: 25px; 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+} 
+
+#Experience .leftPart span {
+    color: #081C15;
+    font-weight: 600;
+    font-style: italic;
+}
+
+#Experience .rightPart {
+    margin-top: 20px; 
+    margin-right: 50px; 
+}
+
+#Experience img {
+
+    height: 450px;
+    width: auto;
+}
