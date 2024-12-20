@@ -92,14 +92,14 @@ a:hover {
     color: #1B4332;
 }
 
-#home {
+#Home {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 500px;
 }
 
-#home .leftPart {
+#Home .leftPart {
     color: #1B4332;
     font-weight: 700;
     font-style: italic;
@@ -110,15 +110,15 @@ a:hover {
     margin-left: 150px;
 }
 
-#home .leftPart h2 {
+#Home .leftPart h2 {
     font-size: 50px;
 }
 
-#home .leftPart p {
+#Home .leftPart p {
     font-size: 40px;
 }
 
-#home .leftPart span {
+#Home .leftPart span {
     color: #081C15;
 }
 
@@ -145,12 +145,12 @@ section button:hover {
     color: #B7E4C7;
 }
 
-#home .rightPart {
+#Home .rightPart {
     margin-top: 90px; 
     margin-right: 170px; 
 }
 
-#home .rightPart img {
+#Home .rightPart img {
     height: 450px;
     width: auto;
 }
