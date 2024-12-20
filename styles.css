@@ -61,10 +61,13 @@ a {
     font-style: italic;
     letter-spacing: 0.1rem;
     transition: color 0.2s;
+    /* transition: transform 0.3s; */
+
 }
 
 a:hover {
     color: #95D5B2;
+    /* transform: scale(1.2); */
 }
 
 .chatBtn {
@@ -264,3 +267,135 @@ section button:hover {
     height: 450px;
     width: auto;
 }
+
+#Projects {
+    height: 500px;
+}
+
+#Projects h2{
+    color:#1B4332;
+    font-size: 45px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 0.2px;
+    margin-top: 60px;
+    margin-left: 130px;
+    margin-bottom: 10px;
+}
+
+.Graphical-Section{
+    height: 400px;
+}
+
+.Horizontal-line{
+    width: auto;
+    background-color: #1B4332;
+    height: 6px;
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.vertical-line{
+    width: 6px;
+    height: 130px;
+    background-color: #1B4332;
+    margin-top: 6px;
+    margin-left: -230px;
+}
+
+
+.project-title{
+    color: #081C15;
+    height: 95px;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    width: 230px;
+    margin-top: 130px;
+}
+
+.project-info{
+    color: #1B4332;
+    width: 230px;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: italic;
+
+}
+
+
+
+
+
+
+footer {
+    background-color: #1B4332;
+    color: #D8F3DC;
+    display: flex;
+    align-items: center;
+    height: 130px;
+}
+
+#Education{
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+#Education h2 {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+}
+
+#Education p{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 12px;
+}
+
+#Education p {
+    position: relative;
+    padding-left: 20px; 
+}
+
+#Education p::before {
+    content: "•"; 
+    color: #D8F3DC; 
+    font-size: 15px; 
+    position: absolute; 
+    left: 0; 
+    top: 0; 
+}
+
+#Contact {
+    margin-top: -10px;
+    padding-left: 250px;
+    
+} 
+
+ #Contact a {
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s;
+} 
+
+#Contact img {
+    width: 50px;
+    height: 50px;
+}
+ 
+
+#Contact a:hover {
+    transform: scale(1.2); 
+}
+
+.copyright {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 0.4px;
+}
+
