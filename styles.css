@@ -16,6 +16,11 @@ hr {
 }
 
 header {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    z-index: 1000; 
     background-color: #1B4332;
     height: 4.5rem;
     display: flex;
@@ -52,6 +57,8 @@ li {
     margin-right: 1.5rem;
 }
 
+
+
 a {
     text-decoration: none;
     color: #D8F3DC;
@@ -61,14 +68,40 @@ a {
     font-style: italic;
     letter-spacing: 0.1rem;
     transition: color 0.2s;
+    position: relative;
     /* transition: transform 0.3s; */
 
 }
 
 a:hover {
     color: #95D5B2;
-    /* transform: scale(1.2); */
+    /*transform: scale(1.2);*/
 }
+
+
+
+a.active {
+    color: #74C69D;
+}
+
+a::after {
+    border: none;
+    content: '';
+    position: absolute;
+    bottom: -1.5px;
+    left: 0;
+    width: 0; /* Start with no underline */
+    height: 1.5px; 
+    background-color: #74C69D; 
+    transition: width 0.3s ease-in-out; /* Smooth transition */
+}
+
+a.active::after {
+    width: 100%; /* Expand the underline */
+}
+
+
+
 
 .chatBtn {
     margin-right: 1.375rem;
@@ -146,7 +179,7 @@ section button:hover {
 }
 
 #Home .rightPart {
-    margin-top: 90px; 
+    margin-top: 120px; 
     margin-right: 170px; 
 }
 
