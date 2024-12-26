@@ -403,6 +403,10 @@ footer {
     top: 0; 
 }
 
+footer .rightPart{
+    display: block;
+}
+
 #Contact {
     margin-top: -10px;
     padding-left: 250px;
@@ -430,5 +434,6 @@ footer {
     font-style: italic;
     font-size: 18px;
     letter-spacing: 0.4px;
+    margin-left: 17px;
 }
 

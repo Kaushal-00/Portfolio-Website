@@ -11,7 +11,7 @@ document.querySelectorAll('header .navLinks a').forEach(link => {
         targetSection.scrollIntoView({
             behavior: 'smooth', 
             block: 'center',
-        });
+        }); 
     });
 });
 
@@ -70,15 +70,3 @@ window.onload = function () {
 //         });
 //     });
 // });
-
-
-
-
-
-
-
-
-
-
-
-
