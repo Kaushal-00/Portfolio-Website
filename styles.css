@@ -358,11 +358,6 @@ section button:hover {
 
 }
 
-
-
-
-
-
 footer {
     background-color: #1B4332;
     color: #D8F3DC;
@@ -434,6 +429,255 @@ footer .rightPart{
     font-style: italic;
     font-size: 18px;
     letter-spacing: 0.4px;
-    margin-left: 17px;
+    margin-left: 175px;
 }
 
+@media (max-width: 1490px){
+
+    body{
+        width: 1490px;
+    }
+    .vertical-line{
+        margin-left: -225px;
+    }
+
+    .project-title, .project-info{
+        width: 200px;
+    }
+}
+
+@media (max-width: 1400px){
+
+    body{
+        width: 1400px;
+    }
+
+
+    #Home, #About, #Experience, #Projects{
+        height: auto;
+    }
+
+    #Home {
+        gap: 40px;
+        width: 1400px;
+    }
+
+    #Home .leftPart{
+        width: 100% !important;
+        margin-right: 10px;
+    }
+
+    #Home .leftPart h2, p{
+        width: 530px !important;
+    }
+
+    #Home .rightPart { 
+        margin-right: 80px; 
+    }
+
+    #About {
+        gap: 40px;
+        width: 1400px;
+    }
+
+    #About .leftPart{
+        margin-left: 140px;
+    }
+
+    #About .rightPart{
+        width: 650px;
+        margin-right: 40px;
+    }
+
+    #Experience {
+        gap: 10px;
+        width: 1400px;
+    }
+
+    #Experience .leftPart{
+        width: 650px;
+        margin-left: 80px;
+    }
+
+    #Experience img{
+        height: 400px;
+    }
+
+    #Projects{
+        width: 1400px;
+    }
+
+    #Projects .vertical-line{
+        margin-left: -210px;
+    }
+
+    footer{
+        width: 1400px;
+    }
+
+    #Education{
+        width: 300px;
+    }
+}
+
+@media (max-width: 1275px){
+
+    body{
+        width: 1275px;
+    }
+
+    .vertical-line{
+        margin-left: -190px;
+    }
+
+    .project-title{
+        width: 190px;
+        font-size: 18px;
+        letter-spacing: 0.2px;
+    } 
+    
+    .project-info{
+        width: 190px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1230px){
+    .vertical-line{
+        margin-left: -180px;
+    }
+
+    .project-title, .project-info{
+        width: 150px;
+    }
+
+    .project-info{
+        margin-top: 30px;
+    }
+}
+
+
+@media (max-width: 350px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Home{
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Home .leftPart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-top: -60px;
+
+    }
+
+    #Home .leftPart .linkBtn{
+        margin-right: 220px;
+    }
+    #Home .rightPart{
+        margin-top: 80px;
+    }
+
+    #About{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #About .leftPart{
+        margin-left: 0px;
+        margin-right: 80px;
+        margin-top: 20px;
+
+    }
+
+    #About .rightPart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 100px;
+
+    }
+
+    #Experience{
+        display: flex;
+        flex-direction:column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Experience .leftPart{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 0px;
+
+    }
+
+    #Experience .rightPart{
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-right: 40px;
+    }
+
+    #Projects {
+        height: auto !important;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #Projects h2{
+        margin: 0;
+    }
+
+    #Projects .Graphical-Section{
+        margin: 0;
+    }
+
+    .Horizontal-line{
+        height: 1300px;
+        width: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-right: 540px !important;
+    }
+
+    .vertical-line{
+        width: 130px;
+        height: 6px;
+        display: flex;
+        margin: 0 !important;
+    }
+
+    .project-title, .project-info{
+        margin: 0 !important;
+    }
+
+    .project-title, .project-info{
+        height: 100% !important;
+        width: 2000% !important;
+        margin-left: 140px !important;
+        margin-bottom: 50px !important;
+    }
+
+}
