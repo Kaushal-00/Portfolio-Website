@@ -1,11 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     background-color: #95D5B2;
     font-family: "Poppins", serif;
+    width: 100vw;
 }
 
 hr {
@@ -435,7 +437,8 @@ footer .rightPart{
 @media (max-width: 1490px){
 
     body{
-        width: 1490px;
+        max-width: 1490px;
+        margin: 0 auto;
     }
     .vertical-line{
         margin-left: -225px;
@@ -449,6 +452,7 @@ footer .rightPart{
 @media (max-width: 1400px){
 
     body{
+        max-width: 1400px;
         min-width: fit-content !important;
     }
 
@@ -463,7 +467,6 @@ footer .rightPart{
 
     #Home {
         gap: 40px;
-        width: 1400px;
     }
 
     #Home .leftPart{
@@ -472,7 +475,7 @@ footer .rightPart{
     }
 
     #Home .leftPart h2, p{
-        width: 530px !important;
+        width: 100% !important;
     }
 
     #Home .rightPart { 
@@ -481,7 +484,6 @@ footer .rightPart{
 
     #About {
         gap: 40px;
-        width: 1400px;
     }
 
     #About .leftPart{
@@ -560,11 +562,21 @@ footer .rightPart{
 @media (max-width: 350px) {
 
     body{
+
+        margin-left: 0px !important;
+        overflow-x: hidden !important;
+        max-width: 100%;
+        min-width:fit-content !important;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
 
+    }
+
+
+    .leftPart, .rightPart{
+        margin-left: 0px !important;
     }
 
     #Home{
