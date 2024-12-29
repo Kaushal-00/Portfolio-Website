@@ -29,7 +29,25 @@
                     <li><a href="#Contact">Contact</a></li>
                 </ul>
             </div>
-            <button class="chatBtn">Chat With Me</button>
+            <button class="chatBtn" id="chatBtn">Chat With Me</button>
+            <div class="contact-window" id="contact-window">
+                <div class="popup-grid">
+                    <h2>Contact Us</h2>
+                    <p>I'd love to hear from you!</p>
+                    <form>
+                        <input type="text" placeholder="Name:" class="name-feild" required>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email:" class="email-feild" required>
+                            <input type="tel" placeholder="Phone Number:" class="phone-no-field" required>
+                        </div>
+                        <textarea placeholder="Message:" class="message-field" required></textarea>
+                        <button type="submit" class="sendBtn">Send Message</button>
+                    </form>
+                    <button class="closeBtn">Close</button>
+                </div>
+            </div>
+            
+            
         </div>
     </header>
 

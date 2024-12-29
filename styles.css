@@ -699,3 +699,116 @@ footer .rightPart{
     }
 
 }
+
+
+.contact-window {
+    font-family: "Poppins", serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    z-index: 2000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.popup-grid {
+    background-color:#1B4332; /* Dark background color */
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color:#D8F3DC;
+}
+
+.popup-grid h2 {
+    letter-spacing: 0.1rem;
+    font-family: "Barlow", serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 32pX;
+}
+
+.popup-grid p{
+    letter-spacing: 0.01rem;
+    font-size: 14px;
+    font-family: "Barlow", serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.name-feild, .email-feild, .phone-no-field, .message-field {
+    background:#B7E4C7; 
+    font-family: "Barlow", serif;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    font-style: italic;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 14px;
+    outline: none;
+}
+
+input::placeholder{
+    color: #1B4332;
+}
+
+textarea::placeholder{
+    color: #1B4332;
+}
+
+.form-group {
+    display: flex;
+    gap: 10px;
+}
+
+.message-field {
+    height: 100px;
+}
+
+.sendBtn {
+    background-color:#B7E4C7;
+    color:#1B4332;
+    font-family: "Barlow", serif;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    font-style: italic;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.sendBtn:hover {
+    background-color:#95D5B2;
+}
+
+.closeBtn {
+    margin-top: 20px;
+    font-family: "Barlow", serif;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+    font-style: italic;
+    background-color: transparent;
+    color:#D8F3DC;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.closeBtn:hover{
+    color:#95D5B2;
+}
