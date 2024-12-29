@@ -35,19 +35,19 @@
                     <h2>Contact Us</h2>
                     <p>I'd love to hear from you!</p>
                     <form>
-                        <input type="text" placeholder="Name:" class="name-feild" required>
+                        <input type="text" placeholder="Name:" class="name-feild" id="from_name" required>
                         <div class="form-group">
-                            <input type="email" placeholder="Email:" class="email-feild" required>
-                            <input type="tel" placeholder="Phone Number:" class="phone-no-field" required>
+                            <input type="email" placeholder="Email:" class="email-feild" id="email_id" required>
+                            <input type="tel" placeholder="Phone Number:" class="phone-no-field" id="mo_no" required>
                         </div>
-                        <textarea placeholder="Message:" class="message-field" required></textarea>
-                        <button type="submit" class="sendBtn">Send Message</button>
+                        <textarea placeholder="Message:" class="message-field" id="message" required></textarea>
+                        <button type="submit" class="sendBtn" onclick="sendMail()">Send Message</button>
                     </form>
                     <button class="closeBtn">Close</button>
                 </div>
             </div>
-            
-            
+
+
         </div>
     </header>
 
@@ -178,6 +178,15 @@
             strings: ['Frontend Developer..!', 'UI/UX Designer..!', 'Hackathon Enthusiast..!', '&amp; IT Student...!'],
             typeSpeed: 50,
         });
+    </script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "kYCR5XPC1HlpseFZq",
+            });
+        })();
     </script>
 </body>
 

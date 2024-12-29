@@ -95,4 +95,18 @@ document.getElementById("contact-window").addEventListener("click", function (ev
 });
 
 
+function sendMail() {
+    const params = {
+        from_name: document.getElementById("from_name").value,
+        email_id: document.getElementById("email_id").value,
+        mo_no: document.getElementById("mo_no").value,
+        message: document.getElementById("message").value
+    };
+    emailjs.send("Kaushal_Kathiriya", "Kaushal_Template", params).then(function (res) {
+        alert("Success! " + res.status);
+    }, function (err) {
+        alert("Failed to send email: " + err);
+    });
+}
+
 
