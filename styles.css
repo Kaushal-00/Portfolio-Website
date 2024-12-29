@@ -449,7 +449,11 @@ footer .rightPart{
 @media (max-width: 1400px){
 
     body{
-        width: 1400px;
+        min-width: fit-content !important;
+    }
+
+    footer{
+        min-width: 100% !important;
     }
 
 
@@ -522,10 +526,6 @@ footer .rightPart{
 
 @media (max-width: 1275px){
 
-    body{
-        width: 1275px;
-    }
-
     .vertical-line{
         margin-left: -190px;
     }
@@ -562,6 +562,9 @@ footer .rightPart{
     body{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
     }
 
     #Home{
@@ -638,7 +641,6 @@ footer .rightPart{
     }
 
     #Projects {
-        height: auto !important;
         display: flex;
         flex-direction:column;
         justify-content: center;
@@ -650,7 +652,8 @@ footer .rightPart{
     }
 
     #Projects .Graphical-Section{
-        margin: 0;
+        min-height: max-content !important;
+        margin-bottom: 90px;
     }
 
     .Horizontal-line{
@@ -666,18 +669,21 @@ footer .rightPart{
         width: 130px;
         height: 6px;
         display: flex;
+        flex-direction: row;
         margin: 0 !important;
     }
 
     .project-title, .project-info{
-        margin: 0 !important;
+        margin-top: -10px !important;
+        margin-bottom: 0px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        min-width:200px !important; 
+        margin-left: 140px !important; 
     }
 
-    .project-title, .project-info{
-        height: 100% !important;
-        width: 2000% !important;
-        margin-left: 140px !important;
-        margin-bottom: 50px !important;
+    .project-info {
+        margin-left: 40px !important; 
     }
 
 }
